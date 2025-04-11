@@ -99,9 +99,9 @@ export default function CoachingLandingPage() {
               <Card>
                 <CardContent className="pt-6">
                   <div className="space-y-2 text-center">
-                    <h3 className="text-xl font-bold">100+ Students</h3>
+                    <h3 className="text-xl font-bold">50+ Students</h3>
                     <p className="text-sm text-muted-foreground">
-                      Successfully coached over 100 players to reach their desired rank
+                      Successfully coached over 50 players to reach their desired rank
                     </p>
                   </div>
                 </CardContent>
@@ -119,17 +119,18 @@ export default function CoachingLandingPage() {
               <div className="flex flex-col gap-2 rounded-xl border bg-muted/50 p-6">
                 <h3 className="text-xl font-bold">Coaching Experience</h3>
                 <ul className="ml-6 list-disc text-muted-foreground [&>li]:mt-2">
-                  <li>5+ years of professional coaching experience</li>
-                  <li>Specialized in mid and jungle role optimization</li>
+                  <li>2+ years of professional coaching experience</li>
+                  <li>Coached 2 tier 3 teams</li>
                   <li>Developed custom training programs for all skill levels</li>
-                  <li>Partnered with esports organizations for team coaching</li>
+                  <li>Specialized in optimizing every role</li>
+
                 </ul>
               </div>
               <div className="flex flex-col gap-2 rounded-xl border bg-muted/50 p-6">
                 <h3 className="text-xl font-bold">Player Achievements</h3>
                 <ul className="ml-6 list-disc text-muted-foreground [&>li]:mt-2">
                   <li>Helped 30+ players reach Diamond from Gold or below</li>
-                  <li>Coached 5 players to Master/Grandmaster tier</li>
+                  <li>Coached 2 players to Master/Grandmaster tier</li>
                   <li>Improved win rates by an average of 15% for all students</li>
                   <li>Specialized champion pool development for competitive play</li>
                 </ul>
@@ -142,9 +143,9 @@ export default function CoachingLandingPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Student Success Stories</h2>
+                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Invest in Your Growth</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Don't take my word for it - hear what my students have to say about their coaching experience.
+                  Whether it's a single session or long-term coaching, we have the right plan for you.
                 </p>
               </div>
             </div>
@@ -153,95 +154,67 @@ export default function CoachingLandingPage() {
                 <CardContent className="p-6">
                   <div className="flex flex-col gap-4">
                     <div className="flex items-center gap-4">
-                      <Image
-                        src="/placeholder.svg?height=40&width=40"
-                        alt="Student Avatar"
-                        width={40}
-                        height={40}
-                        className="rounded-full"
-                      />
                       <div>
-                        <h3 className="font-semibold">Alex T.</h3>
-                        <p className="text-sm text-muted-foreground">Bronze → Platinum</p>
+                        <h3 className="font-semibold">Single Session</h3>
+                        <p className="text-sm text-muted-foreground">1h:30min - $10</p>
                       </div>
                     </div>
                     <p className="text-muted-foreground">
-                      "After being stuck in Bronze for 3 seasons, I reached out for coaching. Within 2 months, I climbed
-                      to Platinum. The macro knowledge I gained completely changed how I approach the game."
+                      "A one-time session where we focus on specific areas of your gameplay. Perfect for quick improvements or advice!"
                     </p>
                   </div>
                 </CardContent>
               </Card>
+
               <Card>
                 <CardContent className="p-6">
                   <div className="flex flex-col gap-4">
                     <div className="flex items-center gap-4">
-                      <Image
-                        src="/placeholder.svg?height=40&width=40"
-                        alt="Student Avatar"
-                        width={40}
-                        height={40}
-                        className="rounded-full"
-                      />
                       <div>
-                        <h3 className="font-semibold">Jamie K.</h3>
-                        <p className="text-sm text-muted-foreground">Gold → Diamond</p>
+                        <h3 className="font-semibold">Training Plan (4-5 Sessions)</h3>
+                        <p className="text-sm text-muted-foreground">4-5 Sessions - $30</p>
                       </div>
                     </div>
                     <p className="text-muted-foreground">
-                      "The personalized VOD reviews were game-changing. I was making the same mistakes over and over
-                      without realizing it. Now I'm Diamond and still improving with the strategies I learned."
+                      "Get a series of sessions tailored to your needs, focusing on key gameplay elements and improvement strategies!"
                     </p>
                   </div>
                 </CardContent>
               </Card>
+
               <Card>
                 <CardContent className="p-6">
                   <div className="flex flex-col gap-4">
                     <div className="flex items-center gap-4">
-                      <Image
-                        src="/placeholder.svg?height=40&width=40"
-                        alt="Student Avatar"
-                        width={40}
-                        height={40}
-                        className="rounded-full"
-                      />
                       <div>
-                        <h3 className="font-semibold">Morgan P.</h3>
-                        <p className="text-sm text-muted-foreground">Platinum → Master</p>
+                        <h3 className="font-semibold">Long-Term Training Plan</h3>
+                        <p className="text-sm text-muted-foreground">6 Months - $180</p>
                       </div>
                     </div>
                     <p className="text-muted-foreground">
-                      "I was skeptical about coaching at first, but the improvement was immediate. The champion pool
-                      recommendations and matchup knowledge alone were worth it. Reached Master last season!"
+                      "Comprehensive training for long-term growth, covering all aspects of your gameplay. Regular sessions and progress check-ins."
                     </p>
                   </div>
                 </CardContent>
               </Card>
+
               <Card>
                 <CardContent className="p-6">
                   <div className="flex flex-col gap-4">
                     <div className="flex items-center gap-4">
-                      <Image
-                        src="/placeholder.svg?height=40&width=40"
-                        alt="Student Avatar"
-                        width={40}
-                        height={40}
-                        className="rounded-full"
-                      />
                       <div>
-                        <h3 className="font-semibold">Taylor R.</h3>
-                        <p className="text-sm text-muted-foreground">Silver → Diamond</p>
+                        <h3 className="font-semibold">Group Coaching (Per Person)</h3>
+                        <p className="text-sm text-muted-foreground">Per Person - $50 (For a group of 5-6 players)</p>
                       </div>
                     </div>
                     <p className="text-muted-foreground">
-                      "The custom practice routines and weekly check-ins kept me accountable. I went from hardstuck
-                      Silver to Diamond in one season. Best investment I've made for my gameplay."
+                      "Join a small group of players to work on strategies, team coordination, and gameplay analysis. Great for improving together!"
                     </p>
                   </div>
                 </CardContent>
               </Card>
             </div>
+
           </div>
         </section>
 
